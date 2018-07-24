@@ -84,7 +84,7 @@ const std::initializer_list<const char*> SEED_NODES = {
   "node-12.btcnero.org:17150",
   "node-13.btcnero.org:17150",
   "node-14.btcnero.org:17150",
-  "node-15.btcnero.org:17150",
+  "node-15.btcnero.org:17150"
 };
 struct CheckpointData {
   uint32_t height;

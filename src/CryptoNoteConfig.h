@@ -71,12 +71,20 @@ const uint64_t P2P_DEFAULT_INVOKE_TIMEOUT                    = 60 * 2 * 1000;
 const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1510d13336228debfee9c918ce505efe225d8c94d045fa115";
 const std::initializer_list<const char*> SEED_NODES = {
-  "164.132.67.99:17150",
-  "213.32.13.188:17150",
-  "node.bitcoinnero.org:17150",
-  "node1.bitcoinnero.org:17150",
-  "node2.bitcoinnero.org:17150",
-  "node3.bitcoinnero.org:17150",
+  "node-1.btcnero.org",
+  "node-2.btcnero.org",
+  "node-3.btcnero.org",
+  "node-4.btcnero.org",
+  "node-5.btcnero.org",
+  "node-6.btcnero.org",
+  "node-7.btcnero.org",
+  "node-8.btcnero.org",
+  "node-9.btcnero.org",
+  "node-10.btcnero.org",
+  "node-12.btcnero.org",
+  "node-13.btcnero.org",
+  "node-14.btcnero.org",
+  "node-15.btcnero.org",
 };
 struct CheckpointData {
   uint32_t height;
